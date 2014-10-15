@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CellSpottingApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="info_action">Information</string>
+    <string name="cell_image_desc">Culture cell image to be analised</string>
+    <string name="progress_bar_desc">Progress Bar</string>
+    <string name="alive_button">Button for marking alive cells</string>
+    <string name="dead_button">Button for marking dead cells</string>
+    <string name="release_button">Button for marking cells releasing content</string>
+    <string name="not_sure_button">Button for marking uncertain cells</string>
+    <string name="remove_button">Button for removing marks over cells</string>
+    <string name="remove_all_button">Button for removing the whole marks</string>
+    <string name="next_step_desc">Button for next step/complete task</string>
+    <string name="no_marks_dialog">No cell has been marked</string>
+    <string name="no_marks_dialog_title">Cell Spotting</string>
+    <string name="ok">OK</string>
+    <string name="completed_toast">Task completed successfully</string>
+    <string name="general_info_title">General Info</string>
+    <string name="step_info_title">Step Info</string>
+    <string name="alive_step_info_title">Alive Cells Step Info</string>
+    <string name="release_step_info_title">Releasing Step Info</string>
+    <string name="general_info_dialog_text">Aiming to mark cells, select the proper marking icon (alive, dead, not sure, releasing content) and touch on the cell to be marked. In order to remove the mark, either use removal button (one at a time) or all of them through the last button.\n\nPush on the arrow at the bottom part to move to the next step or complete the task.\n\nFurther info at socientize.eu.</string>
+    <string name="alive_step_info_dialog_text">Cells that die by apoptosis get rounded first, and then they shrink as the membrane blebs. The nucleus shrinks and might also get fragmented. If the cell dies by necrosis, it usually keeps its shape and size. However, the major characteristic of necrosis is cell content release (cytosol) which is observed as one or several bubbles growing up around the cell. If nothing of the abovementioned happens, it is likely an alive cell.\n\nFurther info at socientize.eu.</string>
+    <string name="release_step_info_dialog_text">Cell content release is observed as transparent bubbles around the cells. They can grow starting at several positions in the cell perimeter. Cell content release without a significant change in the overall morphology of the cell is indicative of death by necrosis.\n\nFurther information at socientize.eu.</string>
+    <string name="alive_sample_desc">Alive cells samples</string>
+    <string name="dead_sample_desc">Dead cells samples</string>
+    <string name="release_sample_desc">Releasing cells samples</string>
+    <string name="more_cells_than_status_toast">Marked cells in this step is greater than the previous one, they should be less or equal</string>
+    <string name="more_cells_than_status_dialog_title">Cell Spotting</string>
+</resources>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/release_step_info_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/release_step_info_dialog_text"
+        android:text="@string/release_step_info_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_margin="20dp" />
+
+	<ImageView
+        android:id="@+id/release_sample_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/release_sample_desc" />
+	
+</LinearLayout>

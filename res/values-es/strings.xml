@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CellSpottingApp</string>
+    <string name="action_settings">Configuración</string>
+    <string name="info_action">Información</string>
+    <string name="cell_image_desc">Imagen del cultivo celular a analizar</string>
+    <string name="progress_bar_desc">Barra de progreso</string>
+    <string name="alive_button">Botón para marcar células vivas</string>
+    <string name="dead_button">Botón para marcar células muertas</string>
+    <string name="release_button">Botón para marcar células liberando contenido</string>
+    <string name="not_sure_button">Botón para marcar células dudosas</string>
+    <string name="remove_button">Botón para eliminar el marcado de células</string>
+    <string name="remove_all_button">Botón para eliminar todos los marcados</string>
+    <string name="next_step_desc">Botón para siguiente paso o completar tarea</string>
+    <string name="no_marks_dialog">No se ha marcado ninguna célula</string>
+    <string name="no_marks_dialog_title">Cell Spotting</string>
+    <string name="ok">Aceptar</string>
+    <string name="completed_toast">¡Tarea completada!</string>
+    <string name="general_info_title">Info general</string>
+    <string name="step_info_title">Info del paso</string>
+    <string name="alive_step_info_title">Info del estado </string>
+    <string name="release_step_info_title">Info de la liberación</string>
+    <string name="general_info_dialog_text">Para marcar las células, seleccionar el icono de marcado (vivas, muertas, no sé, contenido liberado) y tocar sobre la célula a marcar. Para borrar el marcado se puede hacer de una en una mediante el botón de borrar o todas a la vez con el botón de borrar todas.\n\nPara pasar al paso siguiente o completar la tarea, pulsar en la flecha en la parte de abajo.\n\nMás información en socientize.eu.</string>
+    <string name="alive_step_info_dialog_text">Las células que se mueren por apoptosis se redondean primero y luego se arrugan y encogen. El núcleo también se encoge y se puede fraccionar. Si la célula se muere por necrosis suele mantener su forma y tamaño, pero es muy característica la pérdida de contenido celular líquido (citosol), que se observa como una o varias burbujas creciendo alrededor de la célula. Si no sucede nada de lo anterior, probablemente se trata de una célula viva.\n\nMás información en socientize.eu.</string>
+    <string name="release_step_info_dialog_text">La liberación de contenido celular se observa como burbujas transparentes que rodean la célula. Pueden crecer en diferentes posiciones en el perímetro de la célula. La liberación de contenido celular sin cambios significativos en la morfología general de la célula es indicativo de muerte por necrosis.\n\nMás información en socientize.eu.</string>
+    <string name="alive_sample_desc">Muestras de células vivas</string>
+    <string name="dead_sample_desc">Muestras de células muertas</string>
+    <string name="release_sample_desc">Muestra de células liberando contenido</string>
+    <string name="more_cells_than_status_toast">Se ha marcado un mayor número de células que en el paso anterior, mientras que como máximo debería ser el mismo número</string>
+    <string name="more_cells_than_status_dialog_title">Cell Spotting</string>
+</resources>

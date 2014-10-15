@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alive_step_info_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/alive_step_info_dialog_text"
+        android:text="@string/alive_step_info_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_margin="20dp" />
+
+	<ImageView
+        android:id="@+id/alive_sample_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/alive_sample_desc" />
+	
+	<ImageView
+        android:id="@+id/dead_sample_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/dead_sample_desc" />
+	
+</LinearLayout>
